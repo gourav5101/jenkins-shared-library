@@ -1,6 +1,7 @@
 import buildStatus
 import groovy.json.JsonBuilder
 
+@NonCPS
 def call(){
   echo 'deploy_app'
   echo "${env.json}"
